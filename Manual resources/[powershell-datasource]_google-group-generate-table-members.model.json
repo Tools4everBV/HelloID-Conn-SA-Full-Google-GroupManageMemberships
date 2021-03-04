@@ -1,0 +1,30 @@
+[
+    {
+        "key":  "kind",
+        "type":  0
+    },
+    {
+        "key":  "etag",
+        "type":  0
+    },
+    {
+        "key":  "id",
+        "type":  0
+    },
+    {
+        "key":  "email",
+        "type":  0
+    },
+    {
+        "key":  "role",
+        "type":  0
+    },
+    {
+        "key":  "type",
+        "type":  0
+    },
+    {
+        "key":  "status",
+        "type":  0
+    }
+]

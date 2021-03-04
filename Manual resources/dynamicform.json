@@ -1,0 +1,123 @@
+[
+    {
+        "label":  "Select group",
+        "fields":  [
+                       {
+                           "key":  "searchfield",
+                           "templateOptions":  {
+                                                   "label":  "Search",
+                                                   "placeholder":  ""
+                                               },
+                           "type":  "input",
+                           "summaryVisibility":  "Hide element",
+                           "requiresTemplateOptions":  true
+                       },
+                       {
+                           "key":  "gridGroups",
+                           "templateOptions":  {
+                                                   "label":  "Select group",
+                                                   "required":  true,
+                                                   "grid":  {
+                                                                "columns":  [
+                                                                                {
+                                                                                    "headerName":  "Email",
+                                                                                    "field":  "email"
+                                                                                },
+                                                                                {
+                                                                                    "headerName":  "Name",
+                                                                                    "field":  "name"
+                                                                                },
+                                                                                {
+                                                                                    "headerName":  "Direct Members Count",
+                                                                                    "field":  "directMembersCount"
+                                                                                },
+                                                                                {
+                                                                                    "headerName":  "Description",
+                                                                                    "field":  "description"
+                                                                                }
+                                                                            ],
+                                                                "height":  300,
+                                                                "rowSelection":  "single"
+                                                            },
+                                                   "dataSourceConfig":  {
+                                                                            "dataSourceGuid":  "$dataSourceGuid_0",
+                                                                            "input":  {
+                                                                                          "propertyInputs":  [
+                                                                                                                 {
+                                                                                                                     "propertyName":  "searchValue",
+                                                                                                                     "otherFieldValue":  {
+                                                                                                                                             "otherFieldKey":  "searchfield"
+                                                                                                                                         }
+                                                                                                                 }
+                                                                                                             ]
+                                                                                      }
+                                                                        },
+                                                   "useFilter":  false
+                                               },
+                           "type":  "grid",
+                           "summaryVisibility":  "Show",
+                           "requiresTemplateOptions":  true
+                       }
+                   ]
+    },
+    {
+        "label":  "Members",
+        "fields":  [
+                       {
+                           "key":  "members",
+                           "templateOptions":  {
+                                                   "label":  "Manage group memberships",
+                                                   "required":  false,
+                                                   "filterable":  false,
+                                                   "useDataSource":  true,
+                                                   "dualList":  {
+                                                                    "options":  [
+                                                                                    {
+                                                                                        "guid":  "75ea2890-88f8-4851-b202-626123054e14",
+                                                                                        "Name":  "Apple"
+                                                                                    },
+                                                                                    {
+                                                                                        "guid":  "0607270d-83e2-4574-9894-0b70011b663f",
+                                                                                        "Name":  "Pear"
+                                                                                    },
+                                                                                    {
+                                                                                        "guid":  "1ef6fe01-3095-4614-a6db-7c8cd416ae3b",
+                                                                                        "Name":  "Orange"
+                                                                                    }
+                                                                                ],
+                                                                    "optionKeyProperty":  "id",
+                                                                    "optionDisplayProperty":  "email",
+                                                                    "labelLeft":  "Available",
+                                                                    "labelRight":  "Member of"
+                                                                },
+                                                   "dataSourceConfig":  {
+                                                                            "dataSourceGuid":  "$dataSourceGuid_1",
+                                                                            "input":  {
+                                                                                          "propertyInputs":  [
+
+                                                                                                             ]
+                                                                                      }
+                                                                        },
+                                                   "destinationDataSourceConfig":  {
+                                                                                       "dataSourceGuid":  "$dataSourceGuid_2",
+                                                                                       "input":  {
+                                                                                                     "propertyInputs":  [
+                                                                                                                            {
+                                                                                                                                "propertyName":  "selectedGroup",
+                                                                                                                                "otherFieldValue":  {
+                                                                                                                                                        "otherFieldKey":  "gridGroups"
+                                                                                                                                                    }
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                 }
+                                                                                   }
+                                               },
+                           "type":  "duallist",
+                           "summaryVisibility":  "Show",
+                           "sourceDataSourceIdentifierSuffix":  "source-datasource",
+                           "destinationDataSourceIdentifierSuffix":  "destination-datasource",
+                           "requiresTemplateOptions":  true
+                       }
+                   ]
+    }
+]

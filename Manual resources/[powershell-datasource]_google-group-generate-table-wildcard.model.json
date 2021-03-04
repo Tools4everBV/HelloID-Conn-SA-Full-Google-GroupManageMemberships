@@ -1,0 +1,38 @@
+[
+    {
+        "key":  "kind",
+        "type":  0
+    },
+    {
+        "key":  "id",
+        "type":  0
+    },
+    {
+        "key":  "etag",
+        "type":  0
+    },
+    {
+        "key":  "email",
+        "type":  0
+    },
+    {
+        "key":  "name",
+        "type":  0
+    },
+    {
+        "key":  "directMembersCount",
+        "type":  0
+    },
+    {
+        "key":  "description",
+        "type":  0
+    },
+    {
+        "key":  "adminCreated",
+        "type":  0
+    },
+    {
+        "key":  "nonEditableAliases",
+        "type":  0
+    }
+]

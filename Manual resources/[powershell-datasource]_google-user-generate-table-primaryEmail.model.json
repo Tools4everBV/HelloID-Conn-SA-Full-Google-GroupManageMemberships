@@ -1,0 +1,26 @@
+[
+    {
+        "key":  "id",
+        "type":  0
+    },
+    {
+        "key":  "familyName",
+        "type":  0
+    },
+    {
+        "key":  "suspended",
+        "type":  0
+    },
+    {
+        "key":  "fullName",
+        "type":  0
+    },
+    {
+        "key":  "primaryEmail",
+        "type":  0
+    },
+    {
+        "key":  "givenName",
+        "type":  0
+    }
+]
