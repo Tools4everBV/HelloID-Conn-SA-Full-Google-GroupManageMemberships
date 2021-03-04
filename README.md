@@ -2,10 +2,10 @@
 
 <!-- Description -->
 ## Description
-This HelloID Service Automation Delegated Form provides AD group membership management functionality. The following options are available:
- 1. Search and select the target AD group
- 3. Modify AD group memberships
- 5. After confirmation the updates are processed (add or remove AD account memberships)
+This HelloID Service Automation Delegated Form provides Google group membership management functionality. The following options are available:
+ 1. Search and select the target Google group
+ 3. Modify Google group memberships
+ 5. After confirmation the updates are processed (add or remove Google account memberships)
  
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
