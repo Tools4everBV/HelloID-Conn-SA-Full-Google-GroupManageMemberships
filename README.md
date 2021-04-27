@@ -51,3 +51,6 @@ This Powershell data source runs an Google API request to receive selectable Goo
 
 ### Delegated form task 'google-group-update-members'
 This delegated form task will update the google group members.
+
+# HelloID Docs
+The official HelloID documentation can be found at: https://docs.helloid.com/
