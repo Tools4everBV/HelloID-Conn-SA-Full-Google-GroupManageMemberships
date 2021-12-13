@@ -1,5 +1,3 @@
-# HelloID-Conn-SA-Full-Google-GroupManageMemberships
-
 <!-- Description -->
 ## Description
 This HelloID Service Automation Delegated Form provides Google group membership management functionality. The following options are available:
@@ -7,6 +5,12 @@ This HelloID Service Automation Delegated Form provides Google group membership 
  3. Modify Google group memberships
  5. After confirmation the updates are processed (add or remove Google account memberships)
  
+## Versioning
+| Version | Description | Date |
+| - | - | - |
+| 1.0.1   | Added version number and updated all-in-one script | 2021/12/13  |
+| 1.0.0   | Initial release | 2021/03/04  |
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 * [Description](#description)
@@ -52,5 +56,8 @@ This Powershell data source runs an Google API request to receive selectable Goo
 ### Delegated form task 'google-group-update-members'
 This delegated form task will update the google group members.
 
-# HelloID Docs
+## Getting help
+_If you need help, feel free to ask questions on our [forum](https://forum.helloid.com/forum/helloid-connectors/service-automation/646-helloid-sa-google-manage-groupmemberships)_
+
+## HelloID Docs
 The official HelloID documentation can be found at: https://docs.helloid.com/
